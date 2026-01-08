@@ -19,7 +19,7 @@ class urp():
             "Origin": "http://192.168.16.207:9001",
             "Content-Type": "application/x-www-form-urlencoded"
         }
-        ocr = ddddocr.DdddOcr(show_ad=False)
+        ocr = ddddocr.DdddOcr()
         random_param = random.random()
         captcha_url = f"http://192.168.16.207:9001/validateCodeAction.do?random={random_param}"
         captcha_response = self.x.get(captcha_url)

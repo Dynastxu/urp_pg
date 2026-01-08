@@ -1,4 +1,4 @@
 requests
 beautifulsoup4
 lxml
-ddddocr
+ddddocr==1.0.6
